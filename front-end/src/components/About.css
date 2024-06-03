@@ -1,0 +1,106 @@
+/* About.css */
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20%;
+  
+}
+ 
+.about-us-content {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  
+}
+
+.about-us-content h1 {
+  font-size: 28px;
+  font-family: 'Cardo';
+  font-weight: 900;
+}
+.about-us-content p {
+  font-size: 20px;
+  font-family: 'Cardo';
+}
+.developers h2{
+  text-align: center;
+  font-family: 'Cardo';
+  font-weight: 900;
+
+}
+
+.developer-tiles{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.developer-tile h3,p{
+  font-family: 'Cardo';
+  
+}
+.developer-tile {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.developer-tile img {
+  max-width: 100px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.developer-tile h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.developer-tile p {
+  font-size: 16px;
+  color: #666;
+}
+
+.developer-tile:hover {
+  background-color: #2241748a; 
+  transform: scale(1.05);
+}
+
+.developer-tile:hover img {
+  transform: scale(1.2);
+}
+
+.contact-us-container {
+  right: 80px; 
+  background-color: transparent; 
+  transition: background-color 0.3s; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  padding: 10px;
+}
+
+.contact-us-container:hover {
+  background-color: #22417465; 
+}
+
+.contact-details {
+  text-align: right; 
+  font-family: 'Cardo';
+}
+
+.contact-icons {
+  color: #000; 
+}
+
+.contact-icons p {
+  margin: 5px 0;
+}
